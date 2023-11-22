@@ -101,17 +101,21 @@
     <rect>
      <x>40</x>
      <y>30</y>
-     <width>81</width>
-     <height>31</height>
+     <width>80</width>
+     <height>30</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Microsoft YaHei UI</family>
      <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
     <string>用户选球:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_red">
@@ -119,8 +123,8 @@
     <rect>
      <x>110</x>
      <y>90</y>
-     <width>71</width>
-     <height>21</height>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -134,14 +138,17 @@
    <property name="text">
     <string>红球：</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QLabel" name="label_blue">
    <property name="geometry">
     <rect>
      <x>110</x>
      <y>160</y>
-     <width>61</width>
-     <height>21</height>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -154,6 +161,9 @@
    </property>
    <property name="text">
     <string>蓝球：</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_1">
@@ -167,8 +177,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_2">
@@ -182,8 +198,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_3">
@@ -197,8 +219,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_4">
@@ -212,8 +240,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_5">
@@ -227,8 +261,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="red_6">
@@ -242,8 +282,14 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLineEdit" name="blue_1">
@@ -257,53 +303,67 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 255);</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>320</y>
-     <width>91</width>
-     <height>16</height>
+     <y>300</y>
+     <width>80</width>
+     <height>30</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Microsoft YaHei UI</family>
      <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
     <string>开奖结果:</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QTextEdit" name="red_prize">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>190</x>
      <y>330</y>
-     <width>150</width>
+     <width>220</width>
      <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">color: rgb(255, 0, 0);
+</string>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustIgnored</enum>
    </property>
   </widget>
   <widget class="QLabel" name="label_red_2">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>110</x>
      <y>340</y>
-     <width>71</width>
-     <height>21</height>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -317,14 +377,17 @@
    <property name="text">
     <string>红球：</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QLabel" name="label_blue_2">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>110</x>
      <y>410</y>
-     <width>61</width>
-     <height>21</height>
+     <width>60</width>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
@@ -338,6 +401,9 @@
    <property name="text">
     <string>蓝球：</string>
    </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
   </widget>
   <widget class="QTextBrowser" name="PrizeResult">
    <property name="geometry">
@@ -350,11 +416,16 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>15</pointsize>
     </font>
    </property>
+   <property name="cursor" stdset="0">
+    <cursorShape>IBeamCursor</cursorShape>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 255, 127);</string>
+    <string notr="true">background-color: rgb(255, 255, 127);
+color: rgb(255, 0, 0);
+</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -376,7 +447,7 @@
   <widget class="QLabel" name="label_user">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>280</x>
      <y>140</y>
      <width>600</width>
      <height>150</height>
@@ -389,26 +460,26 @@
   <widget class="QTextEdit" name="blue_prize">
    <property name="geometry">
     <rect>
-     <x>200</x>
+     <x>190</x>
      <y>400</y>
      <width>40</width>
-     <height>30</height>
+     <height>40</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <pointsize>18</pointsize>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">color: rgb(0, 0, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_prize">
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>410</y>
+     <y>400</y>
      <width>600</width>
      <height>150</height>
     </rect>

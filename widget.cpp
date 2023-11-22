@@ -7,7 +7,7 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
-//    home.show();
+
 
     ui->password_1->setEchoMode(QLineEdit::Password);
     ui->label_test->setOpenExternalLinks(true);
